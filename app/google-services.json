@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "680808893751",
+    "firebase_url": "https://smartgadi.firebaseio.com",
+    "project_id": "smartgadi",
+    "storage_bucket": "smartgadi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680808893751:android:cbb569d1a1c1ca6c",
+        "android_client_info": {
+          "package_name": "com.example.prakash.smart_gadi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680808893751-utn4p5vrnfadaauc9jndnqrnk8dguppp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prakash.smart_gadi",
+            "certificate_hash": "315fed62f1d747d52e19543f438ae73c5da993d1"
+          }
+        },
+        {
+          "client_id": "680808893751-pltj60sudleq5581ic99cvb0guhruncp.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "680808893751-pltj60sudleq5581ic99cvb0guhruncp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0GfCHCN2QO8md9VHWxUG5RqAHPETwM9s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680808893751-pltj60sudleq5581ic99cvb0guhruncp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

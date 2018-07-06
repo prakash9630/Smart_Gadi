@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="1"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33">
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/dash_slider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.daimajia.slider.library.SliderLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+        android:layout_weight="0.67">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/sub_btn_margin"
+                    android:layout_width="@dimen/linear_weight"
+                    android:layout_height="@dimen/btn_height"
+                    >
+
+
+                    <ImageView
+                        android:scaleType="fitXY"
+
+                        android:id="@+id/click_gps"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_gps"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/sub_btn_margin"
+                    android:layout_width="@dimen/linear_weight"
+                    android:layout_height="@dimen/btn_height">
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="@dimen/sub_btn_width"
+                        android:layout_height="@dimen/btn_height">
+                        <ImageView
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="@dimen/sub_btn_margin"
+android:id="@+id/click_aboutus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_aboutus" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/sub_btn_width"
+                        android:layout_height="@dimen/btn_height">
+                        <ImageView
+                            android:scaleType="fitXY"
+android:id="@+id/click_contactform"
+                            android:src="@drawable/ic_contactus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/sub_btn_margin"
+
+                    android:layout_marginTop="@dimen/sub_btn_margin"
+                    android:layout_width="@dimen/linear_weight"
+                    android:layout_height="@dimen/btn_height">
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="@dimen/sub_btn_width"
+                        android:layout_height="@dimen/btn_height">
+                        <ImageView
+                            android:id="@+id/btn_faq"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="@dimen/sub_btn_margin"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_faq" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/sub_btn_width"
+                        android:layout_height="@dimen/btn_height">
+                        <ImageView
+                            android:scaleType="fitXY"
+                              android:id="@+id/emergency_contactid"
+                            android:src="@drawable/ic_emergencycontacts"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
